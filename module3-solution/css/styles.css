@@ -1,0 +1,149 @@
+body {
+    font-size: 16px;
+    color: rgba(34, 33, 33, 0.884);
+    background-color: #2477af;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  
+  #header-nav {
+    background-color:rgb(107, 231, 194);
+    border-radius: 0;
+    border: 2px solid black;
+    min-height: 70px;
+  }
+  
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: .75;
+  }
+  
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list a {
+    color: black;
+    font-weight: bold;
+  }
+  
+  #nav-list a:hover {
+    background: white;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  
+  #page-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #main-text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .text-background {
+    position: relative;
+    top: 0;
+    margin: 15px;
+    padding: 25px;
+    background-color: rgb(223, 223, 188);
+  }
+  
+  h3 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .text-background a{
+      font-weight: bold;
+      text-decoration: underline;
+  }
+
+  
+  
+
+/* Simple Responsive Framework. */
+/*------ Desktop ------*/
+/* @media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;  
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  } */
+@media (min-width: 992px){
+    .col-lg-4 {
+    width: 33.33%;
+    float: left;
+    }
+}
+  
+  
+  /*------ Tablet ------*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  
+  /*------ Mobile ------*/
+  @media (max-width: 767px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+  }
